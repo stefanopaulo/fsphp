@@ -9,8 +9,8 @@ fullStackPHPClassSession("functions", __LINE__);
 
 require __DIR__."/functions.php";
 
-var_dump(funtionName("Pearl Jam", "AC/DC", "Alter Bridge"));
-var_dump(funtionName("Robson", "Kauê", "Gustavo"));
+var_dump(functionName("Pearl Jam", "AC/DC", "Alter Bridge"));
+var_dump(functionName("Robson", "Kauê", "Gustavo"));
 
 var_dump(optionArgs("Robson"));
 var_dump(optionArgs("Robson", "Kauê"));
